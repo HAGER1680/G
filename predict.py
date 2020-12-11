@@ -9,7 +9,7 @@ import torch.nn.functional as F
 from torchvision import datasets, transforms, models
 from PIL import Image
 
-ef predict(image_path, model, topk=3, transform):
+def predict(image_path, model, topk=3, transform):
     ''' Predict the class (or classes) of an image using a trained deep learning model.
     '''
 
